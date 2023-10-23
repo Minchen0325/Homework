@@ -23,7 +23,7 @@ int main() {
 		scanf_s("%f", &limit);
 		if ((charge - credit)+balance > limit) {
 			printf("account :\t%d\n", account);
-			printf("credit limit :\t%f\n", limit);
+			printf("credit limit :\t%.2f\n", limit);
 			printf("balance :\t%.2f\n", balance + (charge - credit));
 			printf("credit limit exceeded.\n");
 		}
